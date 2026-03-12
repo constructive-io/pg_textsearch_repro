@@ -255,7 +255,7 @@ describe('bm25 search', () => {
   });
 });
 
-describe('bm25 + ON CONFLICT DO NOTHING (bug repro)', () => {
+describe('bm25 + ON CONFLICT DO NOTHING', () => {
   const ownerId = '00000000-0000-0000-0000-000000000020';
 
   it('should handle ON CONFLICT DO NOTHING on unique slug with bm25 index present', async () => {
@@ -415,7 +415,7 @@ describe('bm25 + ON CONFLICT DO NOTHING (bug repro)', () => {
   });
 });
 
-describe('bm25 + table rename (bug repro)', () => {
+describe('bm25 + table rename', () => {
   const ownerId = '00000000-0000-0000-0000-000000000030';
 
   it('should handle ON CONFLICT DO NOTHING after table rename', async () => {
