@@ -1,0 +1,5 @@
+%syntax-version=1.0.0
+%project=test-module
+%uri=test-module
+
+schema 2026-03-12T07:14:06Z constructive <constructive@5b0c196eeb62> # add schema

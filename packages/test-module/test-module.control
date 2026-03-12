@@ -1,0 +1,7 @@
+# test-module extension
+comment = 'test-module extension'
+default_version = '0.0.1'
+module_pathname = '$libdir/test-module'
+requires = 'uuid-ossp,plpgsql,pg_textsearch'
+relocatable = false
+superuser = false
